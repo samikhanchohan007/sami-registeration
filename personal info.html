@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERSONAL INFORMATION</title>
+
+</head>
+
+<body>
+  <h2><u>ISSB REGISTRATION</u></h2>
+  <br>
+  <form action="backend.php">
+    <h3>PERSONAL INFORMATION</h3>
+    <div>UPLOAD PHOTO<input type="file" name="cand img" id="cand img">(.jpg, .png, .jpeg )</div><br>
+    <DIV>NAME OF CANDIDATE:<input type="text" name="CAND NAME" id="CAND NAME" placeholder="IN BLOCK LETETRSS"> </DIV>
+    <br>
+    <div> CANDIDATE CNIC:<input type="number" name="CAND CNIC" id="CAND CNIC" placeholder="without dashes"></div><br>
+    <div> FATHER NAME:<input type="text" name="FATHER NAME"></div><BR>
+    <div>FATHER CNIC:<input type="number" name="father cnic" id="fatehr cnic"></div> <br>
+    <div>
+      DATE OF BIRTH :<input type="date" name="DOB OF CAND" id="DOB OF CAND">
+
+    </div><br>
+    <div>
+      POSTAL ADRESS <input type="text" name="ADRESS">
+    </div><br>
+    <DIV>
+      phone# <input type="tel" name="cand ph" id="cand ph">
+    </DIV><br>
+    <DIV>
+      TEL# <input type="tel" name="cand ph" id="cand ph">
+    </DIV><br>
+    <div>EMAIL:<input type="email" name="cand email" id="cand email" placeholder="example@gmail.com"></div>
+    <br>
+    <div><input type="reset" value="RESET ALL"> <input type="submit" value="SUBMIT"></div><BR>
+    <div><a href="/educational.html">MOVE TO NEXT PAGE</a></div>
+  </form>
+  <br>
+  <br>
+  <br>
+
+  <footer>
+    <DIV><a href="mailto:chohanfamily7@outlook.com"><img
+          src="data:image/png;base64,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"
+          alt="mail us" width="50px"></a></DIV><B>MAIL US FOR ASSISSTANCE</B>
+  </footer>
+</body>
+
+</html>
